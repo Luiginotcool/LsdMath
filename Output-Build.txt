@@ -1,0 +1,11 @@
+﻿Build started...
+1>------ Build started: Project: LsdMath, Configuration: Release x64 ------
+1>LsdMath.cpp
+1>C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(52,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(155,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(160,32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+1>LsdMath.vcxproj -> C:\Users\Luigi\source\repos\LsdMath\x64\Release\LsdMath.lib
+1>Done building project "LsdMath.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Elapsed 00:02.052 ==========

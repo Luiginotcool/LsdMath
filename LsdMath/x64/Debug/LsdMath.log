@@ -1,0 +1,6 @@
+﻿  LsdMath.cpp
+C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(52,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(155,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(160,32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  LsdMath.vcxproj -> C:\Users\Luigi\source\repos\LsdMath\x64\Debug\LsdMath.lib
