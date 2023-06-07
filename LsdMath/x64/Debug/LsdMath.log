@@ -1,6 +1,127 @@
 ﻿  LsdMath.cpp
-C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(52,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(155,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Luigi\source\repos\LsdMath\LsdMath\LsdMath.cpp(160,32): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  LsdMath.vcxproj -> C:\Users\Luigi\source\repos\LsdMath\x64\Debug\LsdMath.lib
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.h(175,8): error C2988: unrecognizable template declaration/definition
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.h(175,8): error C2059: syntax error: '<'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(51,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(56,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(107,15): error C2065: 'i': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(107,24): error C2065: 'i': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(120,24): error C2589: '=': illegal token on right side of '::'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(120,40): error C2549: user-defined conversion cannot specify a return type
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(135,2): error C2255: 'friend': not allowed outside of a class definition
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(136,2): error C2255: 'friend': not allowed outside of a class definition
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(139,2): error C2255: 'friend': not allowed outside of a class definition
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.cpp(140,2): error C2255: 'friend': not allowed outside of a class definition
+  LsdMathOld.cpp
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.h(175,8): error C2988: unrecognizable template declaration/definition
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMath.h(175,8): error C2059: syntax error: '<'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(52,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(57,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(109,2): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(109,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(110,3): error C2065: 'x': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(111,3): error C2065: 'y': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(112,3): error C2065: 'z': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(113,2): warning C4508: 'LsdMath::Vector3': function should return a value; 'void' return type assumed
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(115,2): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(115,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(116,3): error C2065: 'x': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(117,3): error C2065: 'y': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(118,3): error C2065: 'z': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(119,2): warning C4508: 'LsdMath::Vector3': function should return a value; 'void' return type assumed
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(122,14): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(123,33): error C2065: 'x': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(123,62): error C2065: 'y': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(123,91): error C2065: 'z': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(127,7): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(127,26): error C2182: '=': this use of 'void' is not valid
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(127,35): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(127,43): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(127,43): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(134,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(134,29): error C2146: syntax error: missing ';' before identifier '+'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(134,46): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(134,46): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(139,7): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(139,27): error C2182: '+=': this use of 'void' is not valid
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(139,36): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(139,44): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(139,44): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(144,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(144,29): error C2146: syntax error: missing ';' before identifier '-'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(144,46): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(144,46): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(149,7): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(149,27): error C2182: '-=': this use of 'void' is not valid
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(149,36): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(149,44): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(149,44): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(154,8): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(155,19): error C2065: 'x': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(155,31): error C2065: 'y': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(155,43): error C2065: 'z': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(155,14): error C7595: 'sqrt': call to immediate function is not a constant expression
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(159,8): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(160,14): error C2065: 'x': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(160,26): error C2065: 'y': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(160,38): error C2065: 'z': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(164,8): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(164,29): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(164,37): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(164,37): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(169,8): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(169,30): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(169,38): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(169,38): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(174,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(174,19): error C2146: syntax error: missing ';' before identifier 'normalize'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(174,31): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(174,31): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,30): error C2473: 'operator *': looks like a function definition, but there is no parameter list.
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,10): error C2365: 'LsdMath::operator *': redefinition; previous definition was 'function'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,30): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,49): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(179,49): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(183,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(183,33): error C2061: syntax error: identifier 'Vector3'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(183,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(183,49): error C2803: 'operator *' must have at least one formal parameter of class type
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(184,10): error C2065: 'vector': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,10): error C2143: syntax error: missing ';' before '/'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,30): error C2473: 'operator /': looks like a function definition, but there is no parameter list.
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,10): error C2365: 'LsdMath::operator /': redefinition; previous definition was 'function'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,30): error C2146: syntax error: missing ')' before identifier 'vector'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,49): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(187,49): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(191,10): error C2143: syntax error: missing ';' before '/'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(191,33): error C2061: syntax error: identifier 'Vector3'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(191,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(191,49): error C2803: 'operator /' must have at least one formal parameter of class type
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(191,49): error C2805: binary 'operator /' has too few parameters
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(192,10): error C2065: 'vector': undeclared identifier
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(195,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(195,19): error C2146: syntax error: missing ';' before identifier 'cross'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(195,41): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(195,41): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(199,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(199,19): error C2146: syntax error: missing ';' before identifier 'sq'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(199,24): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(199,24): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(203,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(203,19): error C2146: syntax error: missing ';' before identifier 'floor'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(203,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(203,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(207,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(207,19): error C2146: syntax error: missing ';' before identifier 'ceil'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(207,26): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(207,26): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(211,10): error C2653: 'Vector3': is not a class or namespace name
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(211,19): error C2146: syntax error: missing ';' before identifier 'round'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(211,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(211,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(307,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(307,33): error C2061: syntax error: identifier 'Vector3'
+C:\Users\Luigi\Documents\GitHub\LsdMath\LsdMath\LsdMathOld.cpp(307,41): fatal  error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

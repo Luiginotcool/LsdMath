@@ -15,11 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LsdMathOld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="LsdMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LsdMathOld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="LsdMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -2,12 +2,12 @@
 #pragma once
 #include <string>
 #include <cmath>
+#include <vector>
+#include <stdexcept>
 
 namespace LsdMath {
-
-
 	class Vector2 {
-	public: 
+	public:
 		float x;
 		float y;
 
@@ -75,42 +75,40 @@ namespace LsdMath {
 	Vector2 operator / (Vector2 vector, float num);
 	Vector2 operator / (float num, Vector2 vector);
 
-	class Vector3 {
+
+	class Vector {
 	public:
+		std::vector<float> elements;
+		size_t dim;
 
-		float x;
-		float y;
-		float z;
+		Vector(size_t Dim);
+		Vector(std::initializer_list<float> l);
 
-		// Constructors
-		Vector3();
-		Vector3(float _x, float _y, float _z);
-
-		// Returns the string version of a vector
+		// Returns the vector as a string
 		std::string toString();
 
 		// Sets x,y,z to that of the rhs vector
-		void operator =(Vector3 vector);
+		void operator =(Vector vector);
 
 		// Adds two vectors together and returns the result
-		Vector3 operator +(Vector3 vector);
-
+		Vector operator +(Vector vector);
 		// Adds two vectors together and sets the lhs vector to the result
-		void operator +=(Vector3 vector);
-
+		void operator +=(Vector vector);
 		// Subtracts the rhs vector from the lhs vector and returns the result
-		Vector3 operator -(Vector3 vector);
-
+		Vector operator -(Vector vector);
 		// Subtracts the rhs vector from the lhs vector and sets the lhs vector to the result
-		void operator -=(Vector3 vector);
+		void operator -=(Vector vector);
+
+		Vector operator *(float num);
+		Vector operator /(float num);
+
+		void operator *= (float num);
+		void operator /= (float num);
+
+
 
 		// Friend function for the * operator, takes in a float and a vector
-		friend Vector3 operator * (Vector3 vector, float num);
-		friend Vector3 operator * (float num, Vector3 vector);
-
-		// Friend function for the / operator, takes in a float and a vector
-		friend Vector3 operator / (Vector3 vector, float num);
-		friend Vector3 operator / (float num, Vector3 vector);
+		friend Vector operator * (float num, Vector vector);
 
 		// Calculates magnitude of the vector, returns a float
 		float mag();
@@ -119,33 +117,60 @@ namespace LsdMath {
 		float magSq();
 
 		// Calculates the dot product, returns a float
-		float dot(Vector3 vector);
+		float dot(Vector vector);
 
 		// Calculates the distance between two vectors, returns a float
-		float dist(Vector3 vector);
+		float dist(Vector vector);
 
 		// Normalizes, returns a vector
-		Vector3 normalize();
-
-		// Returns the cross product of two vectors
-		Vector3 cross(Vector3 vector);
+		Vector normalize();
 
 		// Squares each element of the vector
-		Vector3 sq();
+		Vector sq();
 
 		// Calculates the floor of each element of the vector
-		Vector3 floor();
+		Vector floor();
 
-		// Calcualtes the ceiling of each element of the vector
-		Vector3 ceil();
+		// Calculates the ceiling of each element of the vector
+		Vector ceil();
 
 		// Rounds each element of the vector
-		Vector3 round();
+		Vector round();
 	};
 
-	Vector3 operator * (Vector3 vector, float num);
-	Vector3 operator * (float num, Vector3 vector);
 
-	Vector3 operator / (Vector3 vector, float num);
-	Vector3 operator / (float num, Vector3 vector);
+	Vector operator * (float num, Vector vector);
+
+
+
+	class Matrix {
+	public:
+		std::vector<std::vector<float>> elements;
+		size_t rows;
+		size_t cols;
+
+		Matrix(size_t Rows, size_t Cols);
+		Matrix(std::initializer_list<std::initializer_list<float>> l);
+
+		void operator=(Matrix m);
+
+		void operator+=(Matrix m);
+		void operator-=(Matrix m);
+		void operator*=(Matrix m);
+
+		Matrix operator+(Matrix m);
+		Matrix operator-(Matrix m);
+		Matrix operator*(Matrix m);
+
+		void operator *=(float f);
+		void operator /=(float f);
+
+		Matrix operator*(float f);
+		Matrix operator/(float f);
+
+		friend Matrix operator*(float f, Matrix m);
+	};
+
+
+	Matrix operator*(float f, Matrix m);
 }

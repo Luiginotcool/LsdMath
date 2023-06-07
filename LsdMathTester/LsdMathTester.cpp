@@ -39,6 +39,8 @@ int main()
     cout << "mag of v3: " << (v3.mag()) << endl;
     cout << "magSq of v3: " << (v3.magSq()) << endl;
     cout << "v3^2: " << (v3.sq()).toString() << endl;
+    int a[3] = { 1,2,3 };
+    size_t a = 11;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
